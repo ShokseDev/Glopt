@@ -1,0 +1,115 @@
+.footer {
+    min-height: 201px;
+    background-color: #25333c;
+    padding: 24px 0 28px 0;
+    &__main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        width: 1140px;
+        &-official {
+            display: flex;
+            flex-direction: row;
+            width: 520px;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+    &__text {
+        font-family: Roboto;
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 700;
+        color: #ffffff;
+    }
+    &__contacts {
+        display: flex;
+        width: 340px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: end;
+    }
+    &__call {
+        text-align: right;
+        font-family: Roboto;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+    &__phone {
+        font-family: Roboto;
+        display: block;
+        text-align: right;
+        font-size: 19px;
+        line-height: 24px;
+        font-weight: 700;
+        color: #ffffff;
+        text-decoration: none;
+        transition: all .5s;
+        &:hover {
+            color: $main-color;
+        }
+    }
+    &__divider {
+        width: 1171px;
+        height: 1px;
+        opacity: 0.3;
+        background-color: #fff;
+        display: block;
+        margin: 0 auto;
+        margin-top: 26px;
+    }
+    &__sub {
+        width: 1140px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 30px;
+        &-official {
+            display: flex;
+            width: 544px;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+    &__copyright {
+        opacity: 0.6;
+        font-family: Roboto;
+        font-size: 13px;
+        line-height: 17px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+    &__policy {
+        font-family: Roboto;
+        font-size: 13px;
+        line-height: 17px;
+        font-weight: 300;
+        text-decoration: underline;
+        color: $main-color;
+        &:hover {
+            color: $main-color;
+        }
+    }
+    &__develop {
+        width: 138px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &-logo {
+            opacity: 0.78;
+        }
+    }
+    &__create {
+        opacity: 0.6;
+        font-family: Roboto;
+        font-size: 13px;
+        line-height: 17px;
+        font-weight: 300;
+        color: #ffffff;
+        margin-right: 10px;
+    }
+}

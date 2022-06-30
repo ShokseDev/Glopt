@@ -1,0 +1,33 @@
+.reviews {
+    min-height: 470px;
+    padding: 51px 0 65px 0;
+    &__wrapper {
+        margin-top: 19px;
+    }
+    &__circle {
+        width: 220px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+    }
+    &__descr {
+        text-align: center;
+        margin-top: 19px;
+        width: 540px;
+        display: block;
+        margin: 19px auto 0 auto;
+        &-name {
+            font-family: Roboto;
+            font-size: 18px;
+            line-height: 22px;
+            font-weight: 700;
+            color: #3a3a3a;
+        }
+        &-text {
+            margin-top: 5px;
+            font-size: 14px;
+            font-weight: 300;
+        }
+    }
+}

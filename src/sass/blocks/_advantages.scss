@@ -1,0 +1,25 @@
+.advantages {
+    min-height: 590px;
+    padding: 57px 0 51px 0;
+    background-color: $bg-color;
+    &__wrapper {
+        margin-top: 31px;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(500px, auto));
+        gap: 36px;
+    }
+    &__item {
+        display: grid;
+        justify-content: start;
+        align-items: center;
+        align-content: flex-start;
+        grid-template-columns: 64px 450px;
+        column-gap: 15px;
+        &-icon {
+            align-self: start;
+            justify-self: center;
+            transform: translateY(15%);
+        }
+        
+    }
+}

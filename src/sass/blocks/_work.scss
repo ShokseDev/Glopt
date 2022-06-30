@@ -1,0 +1,22 @@
+.work {
+    min-height: 620px;
+    padding: 51px 0 57px 0;
+    &__wrapper {
+        margin-top: 37px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        width: 360px;
+        img {
+            width: 100%;
+            image-rendering: -moz-crisp-edges; /* Firefox */
+            -ms-interpolation-mode: nearest-neighbor;  /* IE */
+            image-rendering: crisp-edges; /* Стандартное свойство */
+        }
+    }
+    &__descr {
+        margin-top: 28px;
+        text-align: center;
+    }
+}
